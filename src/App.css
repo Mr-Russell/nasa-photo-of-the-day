@@ -28,6 +28,44 @@
   color: #61dafb;
 }
 
+body {
+  background-color: #303345;
+}
+
+h1, h2 {
+  color: #FF8928;
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  color: #8F8D97;
+}
+
+p {
+  margin: 2% 4%;
+  line-height: 25px;
+  color: #FBFBF2;
+}
+
+img {
+  box-shadow: 1px 1px 10px 1px orange;
+}
+
+a{
+  color: dodgerblue;
+}
+
+#footer {
+  margin-bottom: 3%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
