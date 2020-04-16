@@ -6,7 +6,7 @@ const Header = (props) => {
 return(
   <div>
     <h2>{props.data.date}</h2>
-    <h3><u>Title:</u> {props.data.title}</h3>
+    <h3><span>Title:</span> {props.data.title}</h3>
   </div>
     )
 }
