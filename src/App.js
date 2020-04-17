@@ -4,10 +4,15 @@ import Header from './Header/Header.js'
 import Middle from './Middle/Middle.js'
 import Footer from './Footer/Footer.js'
 import axios from 'axios';
+import styled from 'styled-components'
 
 const apiURL = 'https://api.nasa.gov/planetary/apod';
 const apiKey = 'fDr3eAgEBI5KB46hfl2zgt7zS9Tca1UsgCoKF3Oc';
 
+const Title = styled.h1`
+  font-size: 2.8rem;
+  color: #FF8928;
+`
 
 function App() {
 
@@ -26,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>NASA's Astronomy Picture of the Day!</h1>
+      <Title>NASA's Astronomy Picture of the Day!</Title>
       {console.log(data)}
 
       <Header data={data}/>
