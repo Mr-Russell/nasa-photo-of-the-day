@@ -18,7 +18,9 @@ const Middle = (props) => {
     return(
       <MidDiv>
         <p>{props.data.explanation}</p>
-        <img src={props.data.hdurl} />
+        <a href={props.data.hdurl}>
+          <img src={props.data.url} />
+        </a>
       </MidDiv>
     )
   }
